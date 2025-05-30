@@ -1,0 +1,73 @@
+const driverData = {
+  name: "John",
+  points: 4,
+  maxPoints: 22,
+  licenseStatus: "Active",
+  licenseExpiryDays: 267,
+  fines: [
+    {
+      id: "fine-001",
+      citationNumber: "F-123456",
+      date: "Apr 15, 2023",
+      violation: "Speeding (15mph over)",
+      amount: 150.0,
+      status: "unpaid",
+    },
+    {
+      id: "fine-002",
+      citationNumber: "F-123457",
+      date: "Mar 22, 2023",
+      violation: "Parking Violation",
+      amount: 75.0,
+      status: "appealed",
+    },
+    {
+      id: "fine-003",
+      citationNumber: "F-123458",
+      date: "Feb 10, 2023",
+      violation: "Red Light",
+      amount: 225.0,
+      status: "paid",
+    },
+  ],
+  appeals: [
+    {
+      id: "appeal-001",
+      appealId: "AP-2023-0042",
+      dateFiled: "Mar 25, 2023",
+      violation: "Parking Violation",
+      status: "in_review",
+    },
+    {
+      id: "appeal-002",
+      appealId: "AP-2023-0036",
+      dateFiled: "Feb 18, 2023",
+      violation: "Speeding Ticket",
+      status: "rejected",
+    },
+    {
+      id: "appeal-003",
+      appealId: "AP-2023-0028",
+      dateFiled: "Jan 12, 2023",
+      violation: "Illegal Parking",
+      status: "approved",
+    },
+  ],
+  driverProfile: {
+    licenseNumber: "DL-123456789",
+    idNumber: "ID-987654321",
+    fullNameOnLicense: "Dhanuja Isuru",
+    phoneNumber: "+94 77 123 4567",
+    dateOfBirth: new Date("1990-05-15"),
+    gender: "male",
+    bloodGroup: "O+",
+    restrictionCodes: "None",
+    addressOnLicense: "123 colombo-03",
+    licenseIssueDate: new Date("2015-06-01"),
+    licenseExpireDate: new Date("2025-12-31"),
+    vehicleCategories: "A, B",
+    licensePhoto: "https://example.com/license-photo.jpg",
+  },
+};
+
+export default driverData;

@@ -90,7 +90,7 @@ export function SideBar({ menuItems, user = { initials: "" }, children }) {
             </SidebarMenu>
           </SidebarContent>
 
-          <SidebarFooter>
+          {/* <SidebarFooter>
             <SidebarMenu>
               <SidebarMenuItem>
                 <SidebarMenuButton
@@ -102,11 +102,11 @@ export function SideBar({ menuItems, user = { initials: "" }, children }) {
                 </SidebarMenuButton>
               </SidebarMenuItem>
             </SidebarMenu>
-          </SidebarFooter>
+          </SidebarFooter> */}
         </Sidebar>
 
         <div className="flex flex-1 flex-col w-full">
-          <header className="sticky top-0 z-10 flex h-16 items-center gap-4 border-b bg-background px-6">
+          <header className="sticky top-0 z-10 flex h-16 items-center gap-4 border-b bg-background px-6 py-8">
             <SidebarTrigger />
             <div className="ml-auto flex items-center gap-4">
               <UserButton afterSignOutUrl="/sign-in" />
