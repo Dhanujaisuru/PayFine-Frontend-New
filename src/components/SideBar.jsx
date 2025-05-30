@@ -25,9 +25,9 @@ export const driverMenuItems = [
 ];
 
 export const policeMenuItems = [
-  { name: "Dashboard", icon: Home, path: "/police/dashboard" },
-  { name: "Fines", icon: CreditCard, path: "/police/fines" },
-  { name: "Profile", icon: User, path: "/police/profile" },
+  { name: "Dashboard", icon: Home, path: "/dashboard/police" },
+  { name: "Fines", icon: CreditCard, path: "/dashboard/police/issue-fine" },
+  { name: "Profile", icon: User, path: "/dashboard/police/profile" },
 ];
 
 export const adminMenuItems = [
