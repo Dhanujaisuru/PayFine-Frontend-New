@@ -4,6 +4,7 @@ import FeatureSection from "./components/featureSection";
 import HomeBG from "@/assets/images/traffic.jpg";
 import StatusSection from "./components/statusSection";
 import Footer from "@/components/Footer";
+import Chatbot from "@/components/chatbot/ai-chat-bot";
 
 function HomePage() {
   return (
@@ -12,6 +13,7 @@ function HomePage() {
       <FeatureSection />
       <StatusSection />
       <Footer/>
+      <Chatbot />
     </main>
   );
 }
